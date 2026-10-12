@@ -1,27 +1,391 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Renace Contigo | Coaching de Vida y Salud Mental</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Renace Contigo: Programa de recuperación activa para familias y padres de adolescentes. Adicciones, ansiedad y bienestar emocional.">
+    <title>Renace Contigo | Juntos Sanamos, Juntos Renacemos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-  <header>
-    <h1>Renace Contigo</h1>
-    <p>Juntos sanamos, juntos renacemos</p>
-    <a href="https://wa.me/50662980314?text=Hola,%20quiero%20mi%20primera%20sesi%C3%B3n%20gratis" class="btn-wa">Primera sesión gratis</a>
-  </header>
-  <section>
-    <h2>¿Por qué confiar en mí?</h2>
-    <ul>
-      <li>Certificado oficial CONOCER-SEP (México)</li>
-      <li>Capacitado por OPS/OMS en adicciones</li>
-      <li>+80 h de formación continua</li>
-    </ul>
-  </section>
-  <footer>
-    <p>WhatsApp: +506 6298 0314 | Email: mrenacecontigo@gmail.com</p>
-  </footer>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="logo-brand.png" alt="Renace Contigo Logo" class="brand-logo">
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#padres">Padres</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="https://wa.me/50687514877" class="btn-whatsapp-nav" target="_blank">Hablar con Miguel
+                        ahora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>RENACE CONTIGO</h1>
+            <p class="hero-subtitle">Sanando Juntos, Construyendo Un Nuevo Amanecer</p>
+            <p class="hero-tagline">Tu Programa de Recuperación Activa</p>
+            <div class="hero-buttons">
+                <a href="#servicios" class="btn-primary">Conocer Servicios</a>
+                <a href="https://calendar.app.google/rEeAhdChLTkoWi1N9" class="btn-secondary-light"
+                    target="_blank">Agendar Cita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section (MI HISTORIA) -->
+    <section id="fundador" class="section-container founder-section">
+        <div class="founder-grid">
+            <div class="founder-image">
+                <img src="founder.jpg" alt="Miguel Vargas - Fundador Renace Contigo">
+            </div>
+            <div class="founder-text">
+                <h2>Mi Historia</h2>
+                <h3>Soy Miguel</h3>
+                <p class="lead">Durante años me he especializado en desarrollo personal, no desde la teoría, sino desde
+                    la experiencia real y superada.</p>
+                <p>Entiendo la angustia y el caos que vive una familia frente a las adicciones. Mi misión no es
+                    juzgarte, sino entregarte herramientas prácticas para que dejes de sufrir y empieces a actuar.</p>
+                <p>Aquí encontrarás el camino probado para recuperar tu paz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section-container bg-soft">
+        <div class="section-header">
+            <h2>¿En qué te ayudamos?</h2>
+            <p>Un enfoque integral para sanar y crecer.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h3>Adicciones y Conductas</h3>
+                <p>Entender el origen, prevenir recaídas y reconstruir la identidad lejos de la etiqueta de "adicto".
+                </p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-users"></i>
+                <h3>Armonía Familiar</h3>
+                <p>Mejorar la comunicación, romper ciclos de peleas y reconstruir la confianza sin dramas.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>Gestión Emocional</h3>
+                <p>Manejar la ansiedad y el estrés. Cultivar la calma interior en medio del caos.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mountain"></i>
+                <h3>Superar Obstáculos</h3>
+                <p>Vencer miedos y bloqueos. Transformar crisis en oportunidades de crecimiento.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-compass"></i>
+                <h3>Claridad de Metas</h3>
+                <p>Encontrar propósito y diseñar un plan de vida claro y realista.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-spa"></i>
+                <h3>Bienestar Interior</h3>
+                <p>Cultivar paz y confianza. Sanar heridas del pasado para vivir con propósito.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parents Program -->
+    <section id="padres" class="section-container highlight-section">
+        <div class="parents-grid">
+            <div class="parents-image">
+                <img src="family-calm.jpg" alt="Familia recuperando la calma">
+                <img src="parents-yoga.jpg" alt="Padres encontrando paz" class="img-secondary">
+            </div>
+            <div class="parents-content">
+                <h2>Iluminando el Camino</h2>
+                <h3>Para Padres de Adolescentes</h3>
+                <p>¿Tu hijo tiene ansiedad, depresión o se aísla? No estás solo. La adolescencia es un viaje de
+                    altibajos,
+                    pero tú puedes ser su faro.</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> Identificar señales de alerta.</li>
+                    <li><i class="fas fa-check-circle"></i> Comunicación eficaz y sin juicios.</li>
+                    <li><i class="fas fa-check-circle"></i> Herramientas para manejar emociones.</li>
+                    <li><i class="fas fa-check-circle"></i> Reconexión familiar.</li>
+                </ul>
+                <a href="#precios" class="btn-primary btn-large">Ver Opciones de Inversión</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="section-container">
+        <div class="section-header">
+            <h2>Familias que han recuperado la calma</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Llegamos desesperados sin saber qué hacer con nuestro hijo. Miguel nos
+                    enseñó a poner límites sin culpa. Hoy volvemos a dormir tranquilos."</p>
+                <p class="testimonial-author">— Familia R.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Pensé que nadie me entendería. Aquí encontré herramientas reales, no solo
+                    palabras bonitas. Renace Contigo nos salvó."</p>
+                <p class="testimonial-author">— Madre Anónima.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology & Workshops -->
+    <section id="metodologia" class="section-container bg-soft">
+        <div class="split-layout reverse">
+            <div class="methodology-text">
+                <div class="methodology">
+                    <h2>¿Cómo Trabajamos?</h2>
+                    <p>Lo mejor de tres mundos fusionado en un solo proceso:</p>
+                    <div class="method-tags">
+                        <span>Coaching de Vida</span>
+                        <span>PNL</span>
+                        <span>Consejería en Adicciones</span>
+                    </div>
+                    <p><strong>Sesiones Individuales y Familiares</strong> para sanar a tu ritmo.</p>
+                </div>
+                <div class="workshops">
+                    <h2>Talleres y Charlas</h2>
+                    <div class="workshop-type">
+                        <h4><i class="fas fa-building"></i> Institucional</h4>
+                        <p>Escuelas, Colegios y Empresas.</p>
+                    </div>
+                    <div class="workshop-type">
+                        <h4><i class="fas fa-laptop-house"></i> Personal</h4>
+                        <p>Modalidad virtual para familias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="methodology-image">
+                <img src="methodology-virtual.jpg" alt="Sesiones virtuales efectivas">
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section (5 Tools) -->
+    <section id="recursos" class="section-container">
+        <div class="section-header">
+            <h2>Herramientas para tu Bienestar</h2>
+            <p>Recursos prácticos para recuperar el control y la calma.</p>
+        </div>
+
+        <div class="resources-grid">
+            <div class="tools-accordion">
+                <!-- Tool 1 -->
+                <div class="tool-item">
+                    <div class="tool-header" onclick="toggleTool(this)">
+                        <h3>1. Respiración 4-7-8</h3>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="tool-content">
+                        <p><strong>Tu botón de reset natural.</strong> Calma el sistema nervioso en minutos.</p>
+                        <ol>
+                            <li>Inhala por la nariz (4 seg).</li>
+                            <li>Retén el aire (7 seg).</li>
+                            <li>Exhala por la boca haciendo sonido de silbido (8 seg).</li>
+                            <li>Repite 3-4 veces.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Tool 2 -->
+                <div class="tool-item">
+                    <div class="tool-header" onclick="toggleTool(this)">
+                        <h3>2. Reprogramación con PNL</h3>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="tool-content">
+                        <p>Transforma creencias limitantes ("No puedo") en empoderadoras ("Estoy aprendiendo").</p>
+                        <ul>
+                            <li>Identifica la creencia.</li>
+                            <li>Cuestiona su veracidad.</li>
+                            <li>Crea una nueva creencia positiva y repítela.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tool 3 -->
+                <div class="tool-item">
+                    <div class="tool-header" onclick="toggleTool(this)">
+                        <h3>3. Visualización Estratégica</h3>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="tool-content">
+                        <p>Ensayo mental para activar recursos internos.</p>
+                        <p>Relájate, visualiza el resultado deseado con todos los sentidos, siente la emoción del éxito
+                            y
+                            termina con una afirmación positiva.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 4 -->
+                <div class="tool-item">
+                    <div class="tool-header" onclick="toggleTool(this)">
+                        <h3>4. Anclaje Emocional</h3>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="tool-content">
+                        <p>Acceso instantáneo a estados de calma o confianza.</p>
+                        <p>Recuerda un momento potente, revívelo intensamente y asócialo a un gesto físico (ej. tocarse
+                            el
+                            corazón). Repite para fortalecer.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 5 -->
+                <div class="tool-item">
+                    <div class="tool-header" onclick="toggleTool(this)">
+                        <h3>5. Cambio de Perspectiva</h3>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="tool-content">
+                        <p>Transforma problemas en oportunidades.</p>
+                        <p>Pregúntate: ¿Qué puedo aprender de esto? ¿Cómo puede hacerme más fuerte? ¿Qué oportunidad
+                            oculta
+                            hay aquí?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="resources-image">
+                <img src="resources-journal.jpg" alt="Herramientas de bienestar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Community & Pricing -->
+    <section id="comunidad" class="section-container community-section">
+        <div class="community-content">
+            <div class="community-text">
+                <h2>Únete a Nuestra Comunidad</h2>
+                <p class="community-subtitle">Adicción o Ansiedad en Casa: Empieza tu Sanación HOY.</p>
+                <div class="benefits-grid">
+                    <div class="benefit"><i class="fas fa-podcast"></i> Podcast DIARIO</div>
+                    <div class="benefit"><i class="fas fa-book-open"></i> Ebooks y PDFs</div>
+                    <div class="benefit"><i class="fas fa-video"></i> Talleres en VIVO</div>
+                </div>
+                <a href="https://t.me/RNCARM" target="_blank" class="btn-telegram"><i class="fab fa-telegram-plane"></i>
+                    Unirme al Canal de Telegram</a>
+            </div>
+            <div class="community-image">
+                <img src="community-collage.jpg" alt="Comunidad Renace Contigo">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-container bg-soft">
+        <div class="section-header">
+            <h2>Preguntas Frecuentes</h2>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-image">
+                <img src="virtual-session.jpg" alt="Sesión Virtual Renace Contigo">
+            </div>
+            <div class="faq-content">
+                <div class="faq-item">
+                    <h3>¿Las sesiones son virtuales?</h3>
+                    <p>Sí, todas nuestras sesiones son 100% online, permitiéndote acceder desde la comodidad y
+                        privacidad de tu hogar, sin importar dónde te encuentres.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Es necesario que vaya toda la familia?</h3>
+                    <p>No. Trabajamos con quien esté dispuesto a iniciar el cambio. A menudo, cuando un miembro de la
+                        familia cambia, todo el sistema familiar comienza a transformarse.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Es confidencial?</h3>
+                    <p>Absolutamente. Tu privacidad es nuestra prioridad. Todo lo que se habla en las sesiones se
+                        mantiene bajo estricta confidencialidad profesional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precios" class="section-container">
+        <h2>Inversión en tu Bienestar</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Sesión Individual</h3>
+                <div class="price">₡15,000</div>
+                <p>Atención personalizada a tu ritmo.</p>
+                <a href="https://calendar.app.google/rEeAhdChLTkoWi1N9" class="btn-secondary"
+                    target="_blank">Agendar</a>
+            </div>
+            <div class="price-card featured">
+                <div class="badge-save">Ahorra ₡10,000</div>
+                <h3>Paquete de 4 Sesiones</h3>
+                <div class="price">₡50,000</div>
+                <p>Compromiso con tu proceso de transformación.</p>
+                <a href="https://wa.me/50687514877" class="btn-primary" target="_blank">Adquirir Paquete</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <a href="https://wa.me/50687514877" class="btn-whatsapp-large" target="_blank">
+            <i class="fab fa-whatsapp"></i> Hablar con Miguel ahora
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-col">
+                <img src="logo-brand.png" alt="Renace Contigo" class="footer-logo">
+                <p>Juntos sanamos, juntos renacemos.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/50687514877">Messages: +506 8751 4877</a></p>
+                <p><i class="fas fa-phone"></i> Llamadas: +506 6298 0314</p>
+                <p><i class="fas fa-envelope"></i> mrenacecontigo@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="https://t.me/RNCARM" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Renace Contigo. Diseñado con propósito por Miguel.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
